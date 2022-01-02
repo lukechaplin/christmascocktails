@@ -46,123 +46,165 @@ h2 {
     font-weight: bold;
     font-size: 15px;
   }
+
+  #label {
+    position: absolute;
+      top: 170px;
+      left: 5px;
+      color: black;
+      font-family:'Brush Script Std', cursive;
+      font-weight: bold;
+      font-size: 20px;
+  }
+
+
+  .column-4 {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    height: 115px;
+    top: 185px;
+ 
+  }
+
+  .ingredient-1 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
   
-#label {
-  position: absolute;
-    top: 175px;
+  .measure-1 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
+  
+  .ingredient-2 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
+  
+  .measure-2 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
+  
+  .ingredient-3 {
+      background-color: whitesmoke;
+      color: black;
+      font-family:'Brush Script Std', cursive;
+      font-weight: bold;
+  }
+
+  .measure-3 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
+  
+  .ingredient-4 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
+  
+  .measure-4 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+  }
+  
+  .ingredient-5 {
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold; 
+  }
+  
+  .measure-5 {
+      background-color: whitesmoke;
+      color: black;
+      font-family:'Brush Script Std', cursive;
+      font-weight: bold;
+  }
+
+  .tile-text {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .instruct {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 500px;
     left: 5px;
     color: black;
     font-family:'Brush Script Std', cursive;
     font-weight: bold;
     font-size: 20px;
+  }
+
+  #instructions {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 5px;
+    color: black;
+    font-family:'Brush Script Std', cursive;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+#instructions:hover {
+  background-color: yellow;
 }
 
-#ingredient1 {
-  position: absolute;
-    top: 210px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
-}
-  
-#measure1 {
-  position: absolute;
-    top: 230px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.ingredient-1:hover {
+  background-color: yellow;
 }
 
-#ingredient2 {
-  position: absolute;
-    top: 280px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
-}
-  
-#measure2 {
-  position: absolute;
-    top: 300px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.measure-1:hover {
+  background-color: yellow;
 }
 
-#ingredient3 {
-  position: absolute;
-    top: 340px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
-}
-  
-#measure3 {
-  position: absolute;
-    top: 360px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.ingredient-2:hover {
+  background-color: yellow
 }
 
-#ingredient4 {
-  position: absolute;
-    top: 400px;
-    left: 5px;
-    color: bold;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
-}
-  
-#measure4 {
-  position: absolute;
-    top: 420px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.measure-2:hover {
+  background-color: yellow;
 }
 
-#ingredient5 {
-  position: absolute;
-    top: 460px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
-}
-  
-#measure5 {
-  position: absolute;
-    top: 480px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.ingredient-3:hover {
+    background-color: yellow;
 }
 
-#instructions {
-  position: absolute;
-    top: 520px;
-    left: 5px;
-    color: black;
-    font-family:'Brush Script Std', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.measure-3:hover {
+  background-color: yellow
+}
+
+.ingredient-4:hover {
+  background-color: yellow;
+}
+
+.measure-4:hover {
+  background-color: yellow;
+}
+
+.ingredient-5:hover {
+  background-color: yellow;
+}
+
+.measure-5:hover {
+    background-color: yellow
 }

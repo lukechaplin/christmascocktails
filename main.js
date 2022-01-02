@@ -33,18 +33,6 @@ function addingInstructions(string) {
 addInstructionsToHtml.innerHTML = string
 }
 
-/*This variable selects the part of the HTML where we want 
-the label for the recipe to be displayed in the browser*/
-
-const addLabel = document.querySelector("#label")
-
-
-/*This function takes the variable above and allows us to add 
-string (text) to the label section of the HTML*/
-
-function addLabelToHtml(string) {
-addLabel.innerHTML = string
-    }
 
 /*These variable selects the part of the HTML 
 where we want the ingredients for the cocktail to be displayed in the browser*/
@@ -127,10 +115,6 @@ into HTML*/
 async function fetchCocktails() {
     let response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${userInput}`); 
 let data = await response.json();
-let convertObjectForLabel = JSON.stringify(data.drinks[0].strDrink)
-let removeCurlyBracketsForLabel = convertObjectForLabel.replace(/[{}]/g, '');
-let removeSquareBracketsForLabel = removeCurlyBracketsForLabel.replace(/[[\]]/g, '');
-addLabelToHtml(removeSquareBracketsForLabel)
 let convertObjectForInstruct = JSON.stringify(data.drinks[0].strInstructions)
 let removeCurlyBracketsForInstruct = convertObjectForInstruct.replace(/[{}]/g, '');
 let removeSquareBracketsForInstruct = removeCurlyBracketsForInstruct.replace(/[[\]]/g, '');
@@ -150,11 +134,13 @@ addTheIngredient3(removeSquareBracketsForIngred3)
 let convertObjectForIngred4 = JSON.stringify(data.drinks[0].strIngredient4)
 let removeCurlyBracketsForIngred4 = convertObjectForIngred4.replace(/[{}]/g, '');
 let removeSquareBracketsForIngred4 = removeCurlyBracketsForIngred4.replace(/[[\]]/g, '');
-addTheIngredient4(removeSquareBracketsForIngred4)
+let removeNullforIngred4 = removeSquareBracketsForIngred4.replace(null, '')
+addTheIngredient4(removeNullforIngred4)
 let convertObjectForIngred5 = JSON.stringify(data.drinks[0].strIngredient5)
 let removeCurlyBracketsForIngred5 = convertObjectForIngred5.replace(/[{}]/g, '');
 let removeSquareBracketsForIngred5 = removeCurlyBracketsForIngred5.replace(/[[\]]/g, '');
-addTheIngredient5(removeSquareBracketsForIngred5)
+let removeNullforIngred5 = removeSquareBracketsForIngred5.replace(null, '')
+addTheIngredient5(removeNullforIngred5)
 let convertObjectForMeasure1 = JSON.stringify(data.drinks[0].strMeasure1)
 let removeCurlyBracketsForMeasure1 = convertObjectForMeasure1.replace(/[{}]/g, '');
 let removeSquareBracketsForMeasure1 = removeCurlyBracketsForMeasure1.replace(/[[\]]/g, '');
@@ -170,11 +156,13 @@ addMeasure3(removeSquareBracketsForMeasure3)
 let convertObjectForMeasure4 = JSON.stringify(data.drinks[0].strMeasure4)
 let removeCurlyBracketsForMeasure4 = convertObjectForMeasure4.replace(/[{}]/g, '');
 let removeSquareBracketsForMeasure4 = removeCurlyBracketsForMeasure4.replace(/[[\]]/g, '');
-addMeasure4(removeSquareBracketsForMeasure4)
+let removeNullforMeasure4 = removeSquareBracketsForMeasure4.replace(null, '')
+addMeasure4(removeNullforMeasure4)
 let convertObjectForMeasure5 = JSON.stringify(data.drinks[0].strMeasure5)
 let removeCurlyBracketsForMeasure5 = convertObjectForMeasure5.replace(/[{}]/g, '');
 let removeSquareBracketsForMeasure5 = removeCurlyBracketsForMeasure5.replace(/[[\]]/g, '');
-addMeasure5(removeSquareBracketsForMeasure5)
+let removeNullforMeasure5 = removeSquareBracketsForMeasure5.replace(null, '')
+addMeasure5(removeNullforMeasure5)
 }
 
 
