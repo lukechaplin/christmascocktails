@@ -134,12 +134,12 @@ addTheIngredient3(removeSquareBracketsForIngred3)
 let convertObjectForIngred4 = JSON.stringify(data.drinks[0].strIngredient4)
 let removeCurlyBracketsForIngred4 = convertObjectForIngred4.replace(/[{}]/g, '');
 let removeSquareBracketsForIngred4 = removeCurlyBracketsForIngred4.replace(/[[\]]/g, '');
-let removeNullforIngred4 = removeSquareBracketsForIngred4.replace(null, '')
+let removeNullforIngred4 = removeSquareBracketsForIngred4.replace(null, 'N/A')
 addTheIngredient4(removeNullforIngred4)
 let convertObjectForIngred5 = JSON.stringify(data.drinks[0].strIngredient5)
 let removeCurlyBracketsForIngred5 = convertObjectForIngred5.replace(/[{}]/g, '');
 let removeSquareBracketsForIngred5 = removeCurlyBracketsForIngred5.replace(/[[\]]/g, '');
-let removeNullforIngred5 = removeSquareBracketsForIngred5.replace(null, '')
+let removeNullforIngred5 = removeSquareBracketsForIngred5.replace(null, 'N/A')
 addTheIngredient5(removeNullforIngred5)
 let convertObjectForMeasure1 = JSON.stringify(data.drinks[0].strMeasure1)
 let removeCurlyBracketsForMeasure1 = convertObjectForMeasure1.replace(/[{}]/g, '');
@@ -156,12 +156,12 @@ addMeasure3(removeSquareBracketsForMeasure3)
 let convertObjectForMeasure4 = JSON.stringify(data.drinks[0].strMeasure4)
 let removeCurlyBracketsForMeasure4 = convertObjectForMeasure4.replace(/[{}]/g, '');
 let removeSquareBracketsForMeasure4 = removeCurlyBracketsForMeasure4.replace(/[[\]]/g, '');
-let removeNullforMeasure4 = removeSquareBracketsForMeasure4.replace(null, '')
+let removeNullforMeasure4 = removeSquareBracketsForMeasure4.replace(null, 'N/A')
 addMeasure4(removeNullforMeasure4)
 let convertObjectForMeasure5 = JSON.stringify(data.drinks[0].strMeasure5)
 let removeCurlyBracketsForMeasure5 = convertObjectForMeasure5.replace(/[{}]/g, '');
 let removeSquareBracketsForMeasure5 = removeCurlyBracketsForMeasure5.replace(/[[\]]/g, '');
-let removeNullforMeasure5 = removeSquareBracketsForMeasure5.replace(null, '')
+let removeNullforMeasure5 = removeSquareBracketsForMeasure5.replace(null, 'N/A')
 addMeasure5(removeNullforMeasure5)
 }
 
