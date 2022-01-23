@@ -13,16 +13,16 @@
 
 h1 {
   color: black;
-  font-family: "Brush Script Std", cursive;
-  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
   font-size: 25px;
+  font-weight: bold;
 }
 
 h2 {
   color: black;
-  font-family: "Brush Script Std", cursive;
-  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
   font-size: 25px;
+  font-weight: bold;
 }
 
 #drink-input {
@@ -31,9 +31,9 @@ h2 {
   left: 5px;
   border-radius: 20px;
   color: black;
-  font-family: "Brush Script Std", cursive;
-  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
   font-size: 15px;
+  font-weight: bold;
 }
 
 #cocktail-button {
@@ -42,9 +42,9 @@ h2 {
   left: 5px;
   border-radius: 20px;
   color: black;
-  font-family: "Brush Script Std", cursive;
-  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .column-4 {
@@ -63,7 +63,7 @@ h2 {
   width: auto;
   background-color: whitesmoke;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ h2 {
   width: auto;
   background-color: whitesmoke;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -96,7 +96,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -104,7 +104,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -112,7 +112,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -120,7 +120,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -128,7 +128,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -136,7 +136,7 @@ h2 {
   background-color: whitesmoke;
   width: auto;
   color: black;
-  font-family: "Brush Script Std", cursive;
+  font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
 
@@ -151,9 +151,10 @@ h2 {
   width: 100px;
   left: 5px;
   color: black;
-  font-family: "Brush Script Std", cursive;
-  font-weight: bold;
+  color: black;
+  font-family: "Source Code Pro", monospace;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #instructions {
@@ -162,9 +163,9 @@ h2 {
   top: 550px;
   left: 5px;
   color: black;
-  font-family: "Brush Script Std", cursive;
-  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #instructions:hover {
