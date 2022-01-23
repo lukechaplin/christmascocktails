@@ -8,7 +8,7 @@ let userInput = document.querySelector("#drink-input").addEventListener("keyup",
 
 
 function recordTyping(event) {
-    if (event.keyCode = "keyup")
+    //event.keyCode = "keyup"
     userInput = event.target.value;
     }
 
