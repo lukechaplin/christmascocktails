@@ -21,7 +21,7 @@ Link to github: https://github.com/lukechaplin/christmascocktails
 
 The below shows the structure of the cocktail app code pages their associated functions, the app was built in vanilla javascript, html & CSS.
 
-index.html: standard html page where are elements are rendered (_do not need to alter_)
+index.html: standard HTML page where are elements are rendered (_do not need to alter_)
 
 main.js: standard javascript page where async fetch request for API call is stored - linked via event listeners to ensure URL can be updated with users cocktail selection and then called on button click.
 
