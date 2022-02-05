@@ -15,7 +15,7 @@ _NB: Code is public_
 
 Link to github: https://github.com/lukechaplin/christmascocktails
 
-![](Screenshot1.png)
+![](screenshot1.png)
 
 ### Sections
 
